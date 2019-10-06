@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\asp-template-2.csproj": {}
+  },
+  "projects": {
+    "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\asp-template-2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\asp-template-2.csproj",
+        "projectName": "asp-template-2",
+        "projectPath": "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\asp-template-2.csproj",
+        "packagesPath": "C:\\Users\\MTG\\.nuget\\packages\\",
+        "outputPath": "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\tutorials\\Html_Css\\My_Websites\\ASP.Net Core\\jwt-template\\NuGet.Config",
+          "C:\\Users\\MTG\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-ci-dev/api/v3/index.json": {},
+          "https://dotnet.myget.org/F/aspnetcore-tools/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MySql.Data.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.17, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
